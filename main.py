@@ -15,7 +15,7 @@ from datetime import timedelta, date, datetime
 ##-TDAmeritrade API to get Options data-##
 ##########################################
 token_path = 'token'
-api_key = 'IBMQEU1SRYKCVLBSPKSFQ27PZRGPPGWI@AMER.OAUTHAP'
+api_key = '*********'
 redirect_uri = 'https://localhost'
 try:
     c = auth.client_from_token_file(token_path, api_key)
